@@ -1,0 +1,57 @@
+.h1-my {
+    
+        font-family: monospace;
+        font-size: 10em;
+        background-color: green; 
+        text-shadow: 2px 2px #ff0000;
+    }
+    
+    .h2-my {
+        
+        font-family: monospace;
+        font-size: 3em;
+        background-color: hotpink;
+    
+    }
+    
+    .h3-my {
+        
+        font-family: Arial;
+        font-size: 5em; 
+        background-color: purple;
+        text-shadow: 2px 2px #ff0000;
+    
+    }
+    
+    .img-1 {
+        border-radius: 50%;
+    }
+    
+    .img-2 {
+    
+        width: 128px;
+        height: 100px;
+        border-radius: 128px;
+    
+    
+    }
+    
+    h4 {background-color: hotpink
+    
+    }
+    
+    audio {background-color: goldenrod;
+    }
+    
+    .menu {
+    
+        display: inline;
+        font-size: 6em;
+        background-color: rgb(52, 22, 219);
+        border-top-left-radius: 7px
+        border-top-right-radius: 10px
+    }
+    
+    body {background-image: url (""):}
+    
+    

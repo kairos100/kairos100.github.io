@@ -1,0 +1,22 @@
+.h1-my {
+    
+        font-family: monospace;
+        font-size: 10em;
+        background-color: rgb(21, 45, 124); 
+        text-shadow: 10px 2px 5px #ccced6;
+        box-shadow: 10px 10px 10px grey;
+        
+    }
+
+#box-a {
+
+width: 200px:
+height: 200px;
+
+
+}
+
+    .full-height {
+
+        height: 100%
+    }

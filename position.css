@@ -1,0 +1,18 @@
+.big {
+
+position: absolute;
+left: 500px;
+width: 500px;
+height: 500px;
+background-color: lightseagreen;
+
+}
+
+.size-200 {
+border: 5px red;
+position: fixed;
+top: 200px
+left: 200px
+left: 200px
+width: 200px
+

@@ -1,0 +1,21 @@
+.menutime {
+
+    display: inline;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 5em;
+    background-color: goldenrod;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    padding: 5px;
+    margin: 10px;
+    
+    -moz-transition-property: border-bottom;
+    transition-duration: 200ms;
+    transition-timing-function: linear;
+
+.menuitem-hover {
+
+
+}
+    
+}
