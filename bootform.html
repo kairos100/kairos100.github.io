@@ -15,9 +15,13 @@
 </head>
 <body>
 
-    <div class="container-fluid">
+    <div class="container">
 
-        <form>
+        <div class="row">
+            <div class="col-lg-6*2">
+
+
+        <form method="POST" action="/https://script.google.com/macros/s/AKfycbwiHvjlSI5DnlcLbZDrEsbakpIJAS-DKn_XtyZmpSc5A7vbLDHn/exec">
             <h1>Contact Details</h1>
 
             <label class="radio-inline">
@@ -30,23 +34,23 @@
 
                 <div class="form-group">
                     <label for="First Name here">First Name</label>
-                    <input type="First Name" class="form-control" id="Name" placeholder="First Name here" required>
+                    <input type="First Name" name="First Name" class="form-control" id="Name" placeholder="First Name here" required>
                 </div>
 
                 <div class="form-group">
                         <label for="Family Name here">Family Name</label>
-                        <input type="Family Name" class="form-control" id="Family Name" placeholder="Family Name here" required>
+                        <input type="Family Name" name="Family Name" class="form-control" id="Family Name" placeholder="Family Name here" required>
                     </div>
     
 
                 <div class="form-group">
                   <label for="Email1">Email address</label>
-                  <input type="Email" class="form-control" id="Email1" placeholder="Email address here">
+                  <input type="Email" name="Email" class="form-control" id="Email1" placeholder="Email address here">
                 </div>
 
                 <div class="form-group">
                   <label for="Phone Number">Phone Number</label>
-                  <input type="Phone Number" class="form-control" id="Phone Number" placeholder="Phone Number">
+                  <input type="Phone Number" name="Phone Number" class="form-control" id="Phone Number" placeholder="Phone Number">
                 </div>
 
              
@@ -64,20 +68,22 @@
                
                 <div class="checkbox">
                   <label>
-                    <input type="checkbox"> AM
+                    <input type="checkbox" name="Checkbox1" id="Checkbox1" value="AM"> AM
                   </label>
                 </div>
             
                 <div class="checkbox">
                         <label>
-                          <input type="checkbox"> PM
+                          <input type="checkbox" name="Checkbox2" id="Checkbox2" value="PM"> PM
                         </label>
                 </div>
 
-                <button type="Clear button" class="btn btn-primary btn-lg btn-block">Clear</button>
-                <button type="Submit button" class="btn btn-default btn-lg btn-block">Sumbit</button>
+                <button type="Clear button" class="btn btn-primary btn-lg btn-block" name="Button1" id="Clear button" value="Clear button">Clear</button>
+                <button type="Submit button" class="btn btn-default btn-lg btn-block" name="Button2" id="Submit button" value="Submit button">Sumbit</button>
                 
         </form>
+    </div>
+    </div>
     </div>
 </body>
 </html>
