@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Forms</title>
+</head>
+<body>
+    
+<h1>Contact details</h1>
+
+<form method ="POST" action="to be filled">
+
+    <table>
+
+        <tr>
+            <tr>
+                    <td>
+                            MR: <input type="radio" name="session" value="MR">
+                            MS/MRS: <input type="radio" name="session" value="MS/MRS">
+                    </td>
+            </tr>
+                    
+            <tr>
+                <td> First Name:</td>
+            <td>
+                    <input type="text" name="name" id=name
+                    value="" placeholder ="Your name here"
+                    required size="50">
+            </td> 
+        </tr>
+        <tr>
+                <tr>
+                <td> Family Name:</td>
+                <td>
+                        <input type="text" name="name" id=name
+                        value="" placeholder ="Your name here"
+                        required size="50">
+                </td> 
+            </tr>
+
+        <tr>
+            <td> Email:</td>
+            <td>
+                    <input type="email" name="Email" id=email
+                    value="" placeholder ="Your email here"
+                    required size="50">
+            </td>
+        </tr>
+        <tr>
+            <td>Phone number:</td>
+            <td>
+                    <input type="contact details" name="Contact details" id="Phone number"
+                    value="" placeholder="Phone number here"
+                    required size="50">
+            </td>
+        </tr>
+ 
+            <td>
+                <h3>Best available time to contact you:</h3>
+
+                <select name="session">
+                        <option value="AM"> AM </option>
+                        <option value="PM"> PM </option>       
+                    </select> 
+
+            </td>
+        <tr>
+            <td>
+                <h3>Or check both boxes if applicable</h3>
+
+                AM: <input type="checkbox" name="time" value="AM">
+                PM: <input type="checkbox" name="time" value="PM">
+
+        
+            </td>
+        </tr>
+            <div class="form-group">
+
+        <tr>
+            <td>
+            <button>Submit</button>
+            
+            </td>    
+        
+        
+        </tr>        
+                
+            
+
+            </div>
+        </tr>
+        
+
+        </tr>
+
+
+    </table>
+
+</form>
+
+</body>
+</html>
