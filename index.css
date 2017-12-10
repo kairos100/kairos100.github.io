@@ -1,28 +1,77 @@
 
-.h1-my {
 
-        font-family: @import url(https://fonts.googleapis.com/css?family=Open+Sans);
+.h1-a {
+
+        font-family: 'Merienda One', cursive;
         font-size: 10em;
-        background-color: rgb(21, 45, 124); 
+        background-color: rgb(50, 112, 160); 
         text-shadow: 10px 2px 5px #ccced6;
         box-shadow: 10px 10px 10px grey;
+        border-radius: 20px;
         text-align: center;
         vertical-align: middle;
-        :hover;
+        
         
     }
 
+    ul {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        overflow: hidden;
+        background-color: rgb(96, 186, 224);
+        border-radius: 20px;
+    }
+    
+    li {
+        float: left;
+    }
+    
+    li a {
+        display: block;
+        color: white;
+        text-align: center;
+        padding: 14px 16px;
+        text-decoration: none;
+    }
+    
+    
+    li a:hover {
+        background-color: rgb(17, 92, 203);
+    }
+.h1-b {
+
+        font-family: 'Berkshire Swash', cursive;
+        font-size: 50px;
+        color: rgb(186, 107, 79)
+}
+
+.h2-a {
+    font-family: 'Berkshire Swash', cursive;
+    font-size: 25px;
+    color: rgb(186, 107, 79)
+
+}
+
+.h3-a {
+    font-family: 'Lobster', cursive;
+    font-size: 20px;
+    padding: 10px;
+    margin: 5px;
+    color: goldenrod;
+}
+
 .text1 {
 
-    font-family: 'Bungee', cursive;
+    font-family: 'Aladin', cursive;
     font-size: 30px;
-    color: rgb(248, 58, 0)
+    color: rgb(120, 48, 26)
 }
 
 .text2 {
     
-        font-family: verdana;
-        align-content: center
+        font-family: verdana, cursive;
+        text-align: justify;
         font-size: 30px;
         padding: 10px;
         margin: 5px;
@@ -40,6 +89,45 @@
 
 }
 
+.text4 {
+    color: rgb(226, 130, 21);
+    text-align: justify;
+    font-size: 15px;
+    
+}
+
+
+
+.button1 {
+    background-color: rgb(173, 174, 226);
+    padding: 20px;
+    border: 10px;
+    border-color: black;
+    border-radius: 15px;
+   font-size: 15px;
+   display: block;
+   
+}
+
+.button2 {
+    background-color: rgb(173, 174, 226);
+    margin-top: 7px;
+    padding: 20px;
+    border: 10px;
+    border-color: black;
+    border-radius: 15px;
+   font-size: 15px;
+   display: block;
+}  
+
+.img-circle {
+    margin-left: 75px;
+    margin-top: 50px;
+    width: 750px;
+    height: 400px;
+
+}
+
 #box-a {
 
 width: 200px:
@@ -50,15 +138,17 @@ height: 200px;
     padding: 40px;
     margin-top: 100px;
     margin-bottom: 50px;
-    
 
 }
 
 
-
-}
 
     .full-height {
 
         height: 100%
     }
+
+
+}
+
+
