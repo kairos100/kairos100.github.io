@@ -7,53 +7,58 @@
     <title>Forms</title>
 </head>
 <body>
+
+        
     
 <h1>Contact details</h1>
 
-<form method ="POST" action="to be filled">
+<form id="myForm" name="myForm" method ="POST" action="to be filled">
 
     <table>
 
         <tr>
             <tr>
                     <td>
-                            MR: <input type="radio" name="session" value="MR">
-                            MS/MRS: <input type="radio" name="session" value="MS/MRS">
+                            
+                            MR: <input class="btn-display" type="radio" name="session" value="MR"> 
+                            <label class="radio-inline"></label>
+                            MRS/MS: <input class="btn-display" type="radio" name="session" value="MS/MRS">
+                      
                     </td>
             </tr>
                     
             <tr>
-                <td> First Name:</td>
+                <td> <h3>First Name:</h3></td>
             <td>
                     <input type="text" name="name" id=name
-                    value="" placeholder ="Your name here"
+                    value="" placeholder ="Your first name here"
                     required size="50">
             </td> 
         </tr>
         <tr>
                 <tr>
-                <td> Family Name:</td>
+                <td> <h3>Family Name:</h3></td>
                 <td>
                         <input type="text" name="name" id=name
-                        value="" placeholder ="Your name here"
-                        required size="50">
+                        value="" placeholder ="Your family name here"
+                         size="50">
                 </td> 
             </tr>
 
         <tr>
-            <td> Email:</td>
+            <td> <h3>Email:</h3></td>
             <td>
                     <input type="email" name="Email" id=email
                     value="" placeholder ="Your email here"
-                    required size="50">
+                     size="50">
             </td>
         </tr>
         <tr>
-            <td>Phone number:</td>
+            <td> <h3>Phone number:</h3></td>
             <td>
                     <input type="contact details" name="Contact details" id="Phone number"
-                    value="" placeholder="Phone number here"
-                    required size="50">
+                    value="" placeholder="Your phone number here"
+                     size="50">
             </td>
         </tr>
  
@@ -81,13 +86,18 @@
         <tr>
             <td>
             <button>Submit</button>
-            
             </td>    
         
         
         </tr>        
                 
-            
+        <div class="form-group">
+                
+                        <tr>
+                            <td>
+                            <button onclick="resetForm()" value="Reset Form">reset</button>
+                            </td>    
+                        </tr>        
 
             </div>
         </tr>

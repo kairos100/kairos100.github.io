@@ -1,0 +1,5 @@
+}
+function resetAnswer(){
+    answerDisplay.innerHTML = "";
+}
+

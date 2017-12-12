@@ -2,53 +2,126 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Test</title>
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" 
-    integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
-    
-
+    <title>03_01_function_innerHTML</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
 </head>
 <body>
 
-    <div class="container">
-        <div class="row">
-            <div class="col-lg-4">
-                content 1
-                <button type="button" class="btn btn-default" aria-label="left-align">
-                    <span class="glyphicon glyphicon-earphone" aria-hidden="true"> 
-
-
-                    </span>
-
-
-                </button>
-             
-
-
-            </div>
-
-            <div class="col-lg-4">
-                content 2   
-            </div>    
-
+<div class="container">
+    <div class="panel panel-primary">
+        <div class="panel-heading">
+            <h5>What is the capital of Japan?</h5>
         </div>
 
-        <div class="row">
-            <div class="col-lg-6">
-                Info 1
-            </div>
-
-            <div class="col-lg-6">
-                Info 2
-            </div>
-
+        <div class="panel-body">
+            Answer:
+            <h3 id="answer"></h3>
+           
         </div>
 
+        <div class="panel-footer">
 
-
+            <!-- TODO (00)*note: We want to run a function when the button is clicked
+            note the line: onclick="showAnswer()"
+            onclick: is the event of clicking the button
+            showAnswer(): is the function that will execute-->
+            <button onclick="showAnswer()" class="btn btn-default">Reveal</button>
+                <button onclick="resetAnswer()" class="btn btn-default">Clear</button>
+                
+        </div>
     </div>
-    
+</div>
+
+<script src="test.js"></script>
 </body>
 </html>
+
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <title>Bootstrap Form</title>
+    
+        <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" 
+            rel="stylesheet"
+            integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" 
+            crossorigin="anonymous">
+          
+        
+    </head>
+    <body>
+    
+        <div class="container">
+    
+            <div class="row">
+                <div class="col-lg-6*2">
+    
+    
+            <form method="POST" action="/https://script.google.com/macros/s/AKfycbwiHvjlSI5DnlcLbZDrEsbakpIJAS-DKn_XtyZmpSc5A7vbLDHn/exec">
+                <h1>Contact Details</h1>
+    
+                <label class="radio-inline">
+                        <input type="radio" name="inlineRadioOptions" id="inlineRadio1" value="option1"> MR
+                      </label>
+                      <label class="radio-inline">
+                        <input type="radio" name="inlineRadioOptions" id="inlineRadio2" value="option2"> Ms/Mrs
+                      </label>
+                </label>
+    
+                    <div class="form-group">
+                        <label for="First Name here">First Name</label>
+                        <input type="First Name" name="First Name" class="form-control" id="Name" placeholder="First Name here" required>
+                    </div>
+    
+                    <div class="form-group">
+                            <label for="Family Name here">Family Name</label>
+                            <input type="Family Name" name="Family Name" class="form-control" id="Family Name" placeholder="Family Name here" required>
+                        </div>
+        
+    
+                    <div class="form-group">
+                      <label for="Email1">Email address</label>
+                      <input type="Email" name="Email" class="form-control" id="Email1" placeholder="Email address here">
+                    </div>
+    
+                    <div class="form-group">
+                      <label for="Phone Number">Phone Number</label>
+                      <input type="Phone Number" name="Phone Number" class="form-control" id="Phone Number" placeholder="Phone Number">
+                    </div>
+    
+                 
+                    <h4>Best time to contact you:</h4>
+    
+                    <label class="radio-inline">
+                            <input type="radio" name="inlineRadioOptions" id="inlineRadio1" value="option1"> AM
+                          </label>
+                          <label class="radio-inline">
+                            <input type="radio" name="inlineRadioOptions" id="inlineRadio2" value="option2"> PM
+                          </label>
+                    </label>
+    
+                    <h4>Or check both time slots:</h4>
+                   
+                    <div class="checkbox">
+                      <label>
+                        <input type="checkbox" name="Checkbox1" id="Checkbox1" value="AM"> AM
+                      </label>
+                    </div>
+                
+                    <div class="checkbox">
+                            <label>
+                              <input type="checkbox" name="Checkbox2" id="Checkbox2" value="PM"> PM
+                            </label>
+                    </div>
+    
+                    <button type="Clear button" class="btn btn-primary btn-lg btn-block" name="Button1" id="Clear button" value="Clear button">Clear</button>
+                    <button type="Submit button" class="btn btn-default btn-lg btn-block" name="Button2" id="Submit button" value="Submit button">Sumbit</button>
+                   
+                    
+            </form>
+        </div>
+        </div>
+        </div>
+    </body>
+    </html>
