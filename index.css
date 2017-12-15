@@ -100,6 +100,7 @@
 
 .button1 {
     background-color: rgb(173, 174, 226);
+    margin-top: 5px;
     padding: 20px;
     border: 10px;
     border-color: black;
