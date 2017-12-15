@@ -72,19 +72,19 @@
     
         font-family: verdana, cursive;
         text-align: justify;
-        font-size: 30px;
+        font-size: 25px;
         padding: 10px;
-        margin: 5px;
-        margin bottom: 60px;
+        margin: 10px;
+        margin bottom: 30px;
         color: rgb(226, 130, 21);
     }
 
 .text3 {
 
     font-family: 'Lobster', cursive;
-    font-size: 50px;
-    padding: 50px;
-    margin: 10px;
+    font-size: 25px;
+    padding: 30px;
+    margin: 20px;
     color: goldenrod;
 
 }
