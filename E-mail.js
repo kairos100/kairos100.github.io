@@ -1,2 +1,2 @@
-function myFunction() {
+function clearFunction() {
     document.getElementById("myForm").reset();
